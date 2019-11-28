@@ -40,6 +40,12 @@ m = norm(e10);
 
 n = [d,e,f,g,h,i,j,k,l,m]
 
+o = min(n);
+
+if any (o == n)
+    disp(o)
+end
+
 return
 
 samples

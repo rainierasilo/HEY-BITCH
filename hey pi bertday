@@ -16,3 +16,20 @@ P8 = polyfit (a,b,8); f8 = polyval(P8,a)
 P9 = polyfit (a,b,9); f9 = polyval(P9,a)
 P10 = polyfit (a,b,10); f10 = polyval(P10,a)
 
+d = norm(e1);
+e = norm(e2);
+f = norm(e3);
+g = norm(e4);
+h = norm(e5);
+i = norm(e6);
+j = norm(e7);
+k = norm(e8);
+l = norm(e9);
+m = norm(e10);
+
+n = [d,e,f,g,h,i,j,k,l,m]
+
+return
+
+[38,37,66,35,99,51,27,19,4,7]
+[99,27,12,5,38,37,83,71,76,24]

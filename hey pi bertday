@@ -1,0 +1,18 @@
+%Problem 3: Norm
+
+a = input ('Value of x in []: ');
+b = input ('Value of y in []: ');
+
+c = [a', b'];
+
+P1 = polyfit (a,b,1); f1 = polyval(P1,a)
+P2 = polyfit (a,b,2); f2 = polyval(P2,a)
+P3 = polyfit (a,b,3); f3 = polyval(P3,a)
+P4 = polyfit (a,b,4); f4 = polyval(P4,a)
+P5 = polyfit (a,b,5); f5 = polyval(P5,a)
+P6 = polyfit (a,b,6); f6 = polyval(P6,a)
+P7 = polyfit (a,b,7); f7 = polyval(P7,a)
+P8 = polyfit (a,b,8); f8 = polyval(P8,a)
+P9 = polyfit (a,b,9); f9 = polyval(P9,a)
+P10 = polyfit (a,b,10); f10 = polyval(P10,a)
+

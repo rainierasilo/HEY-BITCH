@@ -26,7 +26,7 @@ elseif o == n(3)
     disp(P3)
 elseif o == n(4)
     P4 = polyfit (a,b,4); 
-    f4 = polyval(P4a);
+    f4 = polyval(P4,a);
     e4 = b - f4;
     disp(P4)
 elseif o == n(5)
